@@ -1,0 +1,84 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+main {
+  background-image: url("/Cuisine/css/background/mainBackground.jpg");
+  background-size: cover;
+  height: 500px;
+  padding-left: 40px;
+}
+
+nav {
+  margin-left: 30%;
+}
+nav li{
+  float: left;
+  padding: 3%;
+  list-style: none;
+}
+
+li a {
+  text-decoration-line: none;
+  color: black;
+}
+
+nav ul img {
+  width: 5%;
+  height: 5%;
+  padding: 5px;
+} 
+
+footer {
+
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/* Icons */
+
+main nav + section img {
+  width: 2.5%;
+  height: 2.5%;
+  padding: 5px;
+}
+
+/* location box */
+
+label {
+  color: white;
+  background-color: orange;
+  padding: 5px;
+  margin-left: -5px;
+}
